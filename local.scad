@@ -146,7 +146,7 @@ module align(cs, cs_dst, displacement=[0,0,0]){
 		//align x axes
 		rotate(-x_rot[1],x_rot[0])
 				//align y axes
-				rotate(-y_rot,cs[1][0])
+				rotate(y_rot,cs[1][0])
 				translate(-cs[0])
 					child(0);
 }
